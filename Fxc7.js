@@ -1,5 +1,5 @@
 /*
-* Tambahin nama author lah
+* Tambah
 * Author MhankBarBar, Farhan
 * Tambahin ya Cape Gan ngefix² Yg Ga work
 * Jan numpang nama doank
@@ -347,8 +347,8 @@ async function starts() {
 			}
 
 			const botNumber = frhan.user.jid
-			const ownerNumber = [`${OwnerNumber}@s.whatsapp.net`] // owner number ubah aja 
-			const ownerInfo = `${OwnerNumber}`
+			const ownerNumber = [`${082288419944}@s.whatsapp.net`] // owner number ubah aja 
+			const ownerInfo = `${082288419944}`
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? await frhan.groupMetadata(from) : ''
@@ -371,7 +371,7 @@ async function starts() {
 			const isBanned = ban.includes(sender)
 			const isPrem = premium.includes(sender) || isOwner 
 			const FarhanGans = ["0@s.whatsapp.net"]
-			const FarhanGans2 = " ~ 𝐂𝐫𝐞𝐚𝐭𝐞𝐝 𝐁𝐲 𝐅𝐚𝐫𝐡𝐚𝐧𝐗𝐂𝐨𝐝𝐞𝟳"
+			const FarhanGans2 = " ~ 𝐂𝐫𝐞𝐚𝐭𝐞𝐝 𝐁𝐲 𝐅�AJAR"
 			const isUrl = (url) => {
 			    return url.match(new RegExp(/https?:\/\/(www\.)?[-a-zA-Z0-9@:%._+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_+.~#?&/=]*)/, 'gi'))
 		}
